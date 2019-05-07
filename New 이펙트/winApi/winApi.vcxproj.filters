@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="매니져">
+      <UniqueIdentifier>{45fc7e26-585a-434a-843e-e459e46be338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="메인게임">
+      <UniqueIdentifier>{e5e7106c-c557-4f2a-bf2f-362d037f9df4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API">
+      <UniqueIdentifier>{de59bd84-490f-4de3-b2d7-ca1c9eac4440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\타이머">
+      <UniqueIdentifier>{26cd077e-757e-4ad7-a19a-732334387876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\게임노드">
+      <UniqueIdentifier>{c74581e2-587b-42c6-b090-558f511f1e4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\stdafx">
+      <UniqueIdentifier>{06a3d718-c25a-4a79-8877-9330efad880c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\이미지">
+      <UniqueIdentifier>{60422429-1dd3-46ec-8b7f-88632224d0eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\프로그래스 바">
+      <UniqueIdentifier>{1f3921e4-c877-4df3-bca3-3c86de7df3bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\유틸">
+      <UniqueIdentifier>{e75bf56a-db97-4fd2-8479-b6dfb045232b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\이펙트">
+      <UniqueIdentifier>{20a4ac81-1e2a-46f8-a1c6-e7dfe4dd0732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\애니메이션">
+      <UniqueIdentifier>{a7d5d296-d5d1-4535-b878-533478909d6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\애니메이션\애니메이션 테스트 씬">
+      <UniqueIdentifier>{dbc8f9d1-58b7-41bb-af88-11065e7fcd52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\세이브로드 테스트씬">
+      <UniqueIdentifier>{fef673ab-6672-4a2d-a667-d35f4c475213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\INI">
+      <UniqueIdentifier>{beef2530-7bd7-4bde-be00-4d2b0b61627c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\INI\INI 테스트 씬">
+      <UniqueIdentifier>{a157c429-0c97-4d5f-9126-e8a4062eb701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\슈팅 게임">
+      <UniqueIdentifier>{9c786e57-85ea-4c08-9391-e7162fa13e66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\슈팅 게임\enemy">
+      <UniqueIdentifier>{25086690-8642-4c2f-89ae-899688d22b08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\슈팅 게임\player">
+      <UniqueIdentifier>{241fe692-fc0c-4f00-bc6f-5ffe8787b0cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\슈팅 게임\bullet">
+      <UniqueIdentifier>{6e374d83-df24-4849-89d1-b7f8a7322ab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\슈팅 게임\scene">
+      <UniqueIdentifier>{c07eec6a-26c3-499c-8271-fe105dfe13a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\Sample">
+      <UniqueIdentifier>{3b01e1df-d401-4408-854b-3d95405ca4d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\로딩">
+      <UniqueIdentifier>{95b0a7f0-452d-4fbb-b791-1a871bcf444c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\로딩\로딩 씬">
+      <UniqueIdentifier>{f7eaea39-a398-412d-a874-098bd501e379}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\픽셀 충돌">
+      <UniqueIdentifier>{bd5cef6a-77c9-4a6c-86c4-4c1d2ccef12e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\픽셀 충돌\픽셀 충돌 씬">
+      <UniqueIdentifier>{50703c14-b98f-46ba-8550-3afc2b0c398b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\사운드">
+      <UniqueIdentifier>{1bcd1389-577b-45cd-abb3-f78c836102de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\이펙트\이펙트 테스트 씬">
+      <UniqueIdentifier>{7e2acda0-9e6a-4bda-9429-ccfbfa0eff62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API\사운드\사운드 테스트 씬">
+      <UniqueIdentifier>{0e570b64-cfaa-4c41-8c62-9bddbc9c55ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>메인게임</Filter>
+    </ClCompile>
+    <ClCompile Include="winMain.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>API\이미지</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="jumpSample.cpp">
+      <Filter>API\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="secondScene.cpp">
+      <Filter>API\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="startScene.cpp">
+      <Filter>API\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberSample.cpp">
+      <Filter>API\Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>API\유틸</Filter>
+    </ClCompile>
+    <ClCompile Include="bullets.cpp">
+      <Filter>API\슈팅 게임\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="flame.cpp">
+      <Filter>API\슈팅 게임\player</Filter>
+    </ClCompile>
+    <ClCompile Include="rocket.cpp">
+      <Filter>API\슈팅 게임\player</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>API\슈팅 게임\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyManager.cpp">
+      <Filter>API\슈팅 게임\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="minion.cpp">
+      <Filter>API\슈팅 게임\enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>API\타이머</Filter>
+    </ClCompile>
+    <ClCompile Include="collision.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>API\게임노드</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>API\stdafx</Filter>
+    </ClCompile>
+    <ClCompile Include="progressBar.cpp">
+      <Filter>API\프로그래스 바</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>API\애니메이션</Filter>
+    </ClCompile>
+    <ClCompile Include="animationTest.cpp">
+      <Filter>API\애니메이션\애니메이션 테스트 씬</Filter>
+    </ClCompile>
+    <ClCompile Include="saveLoadTest.cpp">
+      <Filter>API\세이브로드 테스트씬</Filter>
+    </ClCompile>
+    <ClCompile Include="txtDataManager.cpp">
+      <Filter>매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="iniData.cpp">
+      <Filter>API\INI</Filter>
+    </ClCompile>
+    <ClCompile Include="iniDataTest.cpp">
+      <Filter>API\INI\INI 테스트 씬</Filter>
+    </ClCompile>
+    <ClCompile Include="shootingScene.cpp">
+      <Filter>API\슈팅 게임\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="loading.cpp">
+      <Filter>API\로딩</Filter>
+    </ClCompile>
+    <ClCompile Include="loadingScene.cpp">
+      <Filter>API\로딩\로딩 씬</Filter>
+    </ClCompile>
+    <ClCompile Include="mountainScene.cpp">
+      <Filter>API\픽셀 충돌\픽셀 충돌 씬</Filter>
+    </ClCompile>
+    <ClCompile Include="pixelCollision.cpp">
+      <Filter>API\픽셀 충돌</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>매니져</Filter>
+    </ClCompile>
+    <ClCompile Include="shootingEffect.cpp">
+      <Filter>API\이펙트</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>API\이펙트</Filter>
+    </ClCompile>
+    <ClCompile Include="soundTestScene.cpp">
+      <Filter>API\사운드\사운드 테스트 씬</Filter>
+    </ClCompile>
+    <ClCompile Include="effectTestScene.cpp">
+      <Filter>API\이펙트\이펙트 테스트 씬</Filter>
+    </ClCompile>
+    <ClCompile Include="effectManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="commonMacroFiunction.h">
+      <Filter>API\유틸</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>API\유틸</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGame.h">
+      <Filter>메인게임</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>API\이미지</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="jumpSample.h">
+      <Filter>API\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="secondScene.h">
+      <Filter>API\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="startScene.h">
+      <Filter>API\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberSample.h">
+      <Filter>API\Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>API\유틸</Filter>
+    </ClInclude>
+    <ClInclude Include="bullets.h">
+      <Filter>API\슈팅 게임\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="rocket.h">
+      <Filter>API\슈팅 게임\player</Filter>
+    </ClInclude>
+    <ClInclude Include="flame.h">
+      <Filter>API\슈팅 게임\player</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>API\슈팅 게임\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyManager.h">
+      <Filter>API\슈팅 게임\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="minion.h">
+      <Filter>API\슈팅 게임\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>API\타이머</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>API\게임노드</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>API\stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="progressBar.h">
+      <Filter>API\프로그래스 바</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>API\애니메이션</Filter>
+    </ClInclude>
+    <ClInclude Include="animationTest.h">
+      <Filter>API\애니메이션\애니메이션 테스트 씬</Filter>
+    </ClInclude>
+    <ClInclude Include="saveLoadTest.h">
+      <Filter>API\세이브로드 테스트씬</Filter>
+    </ClInclude>
+    <ClInclude Include="txtDataManager.h">
+      <Filter>매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="iniData.h">
+      <Filter>API\INI</Filter>
+    </ClInclude>
+    <ClInclude Include="iniDataTest.h">
+      <Filter>API\INI\INI 테스트 씬</Filter>
+    </ClInclude>
+    <ClInclude Include="shootingScene.h">
+      <Filter>API\슈팅 게임\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="loading.h">
+      <Filter>API\로딩</Filter>
+    </ClInclude>
+    <ClInclude Include="loadingScene.h">
+      <Filter>API\로딩\로딩 씬</Filter>
+    </ClInclude>
+    <ClInclude Include="mountainScene.h">
+      <Filter>API\픽셀 충돌\픽셀 충돌 씬</Filter>
+    </ClInclude>
+    <ClInclude Include="pixelCollision.h">
+      <Filter>API\픽셀 충돌</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>매니져</Filter>
+    </ClInclude>
+    <ClInclude Include="shootingEffect.h">
+      <Filter>API\이펙트</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>API\이펙트</Filter>
+    </ClInclude>
+    <ClInclude Include="soundTestScene.h">
+      <Filter>API\사운드\사운드 테스트 씬</Filter>
+    </ClInclude>
+    <ClInclude Include="effectTestScene.h">
+      <Filter>API\이펙트\이펙트 테스트 씬</Filter>
+    </ClInclude>
+    <ClInclude Include="effectManager.h" />
+  </ItemGroup>
+</Project>
